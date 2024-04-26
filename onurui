@@ -1,0 +1,26 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("onurumu6 script Hub", "Default")
+local tab = DrRayLibrary.newTab("Blox Fruits", "16438141210")
+tab.newButton("Hoho Hub", "Runs Hoho Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+end)
+tab.newButton("Alchemy Hub", "Runs Alchemy Hub", function()
+    loadstring(game:HttpGet("https://luable.top/acm"))()
+end)
+tab.newButton("Redz Hub", "Runs Redz Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+end)
+tab.newButton("W-azure", "Runs W-azure", function()
+    getgenv().AutoLoad = false --Will Load Script On Server Hop
+    getgenv().SlowLoadUi  = false
+    getgenv().ForceUseSilentAimDashModifier = false --Force turn on silent aim , if error then executor problem
+    getgenv().ForceUseWalkSpeedModifier = false --Force turn on Walk Speed Modifier , if error then executor problem
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+end)
+tab.newButton("Raito Hub", "Runs Raito Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+end)
+local tab = DrRayLibrary.newTab("Slap Battles", "17291741748")
+tab.newButton("Gaster Hub", "Runs Gaster Hub", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Dusty1234567890/TestMain/main/SLAPBATTLESGUI5")))()
+end)
